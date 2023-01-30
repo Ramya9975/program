@@ -6,7 +6,7 @@ public class Program
     {
        
         int num1, num2, temp;
-        //ask for numbers
+       
         Console.WriteLine("\nEnter the First Number : ");
         num1 = int.Parse(Console.ReadLine());
         Console.WriteLine("\nEnter the Second Number : ");
@@ -19,6 +19,7 @@ public class Program
         Console.WriteLine("After Swapping : ");
         Console.WriteLine("First Number : " + num1);
         Console.WriteLine("Second Number : " + num2);
+        Console.WriteLine("Completed");
 
     }
 }
